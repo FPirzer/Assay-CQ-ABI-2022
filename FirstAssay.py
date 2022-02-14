@@ -1,9 +1,9 @@
-AssayMix = ["Item", "2", "Item3"]
+AssayMix = ["Item", 2, "Item3"]
 print(AssayMix)
 
-AssayNumbers1 = ["1", "2", "3"]
+AssayNumbers1 = [1, 2, 3]
 print(AssayNumbers1)
-AssayNumbers2 = ["4", "5", "6"]
+AssayNumbers2 = [4, 5, 6]
 print(AssayNumbers2)
 
 AssayString1 = ["Water", "Eggs", "Sugar"]
