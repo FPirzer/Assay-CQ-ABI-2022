@@ -32,5 +32,5 @@ print("List with Index " + str(Remove) + "removed:")
 List1.remove(Remove)
 print(List1)
 
-#To remove multiple entries use:
-#del List1[2:6]
+# To remove multiple entries use:
+# del List1[2:6]
