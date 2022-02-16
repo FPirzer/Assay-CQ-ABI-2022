@@ -49,9 +49,7 @@ elif Mode == "add":
     #     if ChoiceSelect=="yes":
     print(adress_book)
 elif Mode == "delete":
-    deleteSelect = input(
-        "Do you want to delete an entry or field in an entry? (entry OR field) "
-    )
+    deleteSelect = input("Delete an entry or field in an entry? (entry OR field) ")
     if deleteSelect == "entry":
         print(adress_book.keys())
         EntrySelect = input("Which entry do you want to remove? ")

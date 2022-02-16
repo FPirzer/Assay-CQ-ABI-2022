@@ -1,0 +1,13 @@
+tuple1 = tuple(range(int(input("Give me the range for the 1st tuple: "))))
+tuple2 = tuple(range(int(input("Give me the range for the 2nd tuple: "))))
+tuple3 = tuple(range(int(input("Give me the range for the 3rd tuple: "))))
+tuple4 = tuple(range(int(input("Give me the range for the 4th tuple: "))))
+print(tuple1)
+print(tuple2)
+print(tuple3)
+print(tuple4)
+
+print(tuple1[int(input("What index you want to look at from the 1st tuple? "))])
+print(tuple2[int(input("What index you want to look at from the 1st tuple? "))])
+print(tuple3[int(input("What index you want to look at from the 1st tuple? "))])
+print(tuple4[int(input("What index you want to look at from the 1st tuple? "))])
