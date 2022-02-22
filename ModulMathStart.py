@@ -13,34 +13,48 @@ print("10. Acos")
 print("11. Asin")
 print("12. Atan")
 
-Falsechoice = True
-while Falsechoice:
+ValidChoice = True
+while ValidChoice:
     Choice = input("What math operation do you want to use? ")
     if Choice.isdigit():
         Choice = int(Choice)
         if Choice > 12 or Choice < 1:
             print("This is not a valid choice")
         elif Choice > 1 and Choice < 12:
-            Falsechoice = False
+            ValidChoice = False
     else:
         print("Your input wasn't a positiv number!")
 
 
-Nr1 = input("The first number for the calculation: ")
-if Nr1.isdigit():
-    Nr1 = int(Nr1)
-    if Choice == 2 and Nr1 <= 0:
-        print("This is not a valid choice for the Log funtion")
-else:
-    print("Your input wasn't a number!")
-
-# Dont want to implement all the exeptions -.-
-
-Nr2 = input("The second number for the calculation: ")
-if Nr2.isdigit():
-    Nr2 = int(Nr2)
-else:
-    print("Your input wasn't a number!")
+Nr1accept = False
+while not Nr1accept:
+    Nr1 = input("The first number for the calculation: ")
+    if Nr1.isdigit():
+        Nr1 = int(Nr1)
+        if (Choice == 2 or Choice == 3 or Choice == 4) and Nr1 <= 0:
+            print("This is not a valid choice for the Log funtion")
+        elif (Choice == 10 or Choice == 11 or Choice == 12) and (Nr1 < -1 or Nr1 > 1):
+            print("This is not a valid choice for the arcus funtions")
+        else:
+            Nr1accept = True
+    else:
+        print("Your input wasn't a number!")
+if Choice == 2 or Choice == 5:
+    Nr2accept = False
+    while not Nr2accept:
+        Nr2 = input("The second number for the calculation: ")
+        if Nr2.isdigit():
+            Nr2 = int(Nr2)
+            if (Choice == 2 or Choice == 3 or Choice == 4) and Nr2 <= 0:
+                print("This is not a valid choice for the Log funtion")
+            elif (Choice == 10 or Choice == 11 or Choice == 12) and (
+                Nr2 < -1 or Nr2 > 1
+            ):
+                print("This is not a valid choice for the arcus funtions")
+            else:
+                Nr2accept = True
+        else:
+            print("Your input wasn't a number!")
 
 # math.pi
 # math.e
