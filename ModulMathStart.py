@@ -60,16 +60,27 @@ if Choice == 2 or Choice == 5:
 # math.e
 # math.tau
 
-
-print("Exp:", math.exp(Nr1))
-print("Log:", math.log(Nr1, Nr2))
-print("Log2:", math.log2(Nr1))
-print("Log10:", math.log10(Nr1))
-print("Pow:", math.pow(Nr1, Nr2))
-print("Sqrt:", math.sqrt(Nr1))
-print("Cos:", math.cos(Nr2))
-print("Sin:", math.sin(Nr2))
-print("Tan:", math.tan(Nr2))
-print("acos:", math.acos(Nr2))
-print("asin:", math.asin(Nr2))
-print("atan:", math.atan(Nr2))
+if Choice == 1:
+    print("Exp:", math.exp(Nr1))
+elif Choice == 2:
+    print("Log:", math.log(Nr1, Nr2))
+elif Choice == 3:
+    print("Log2:", math.log2(Nr1))
+elif Choice == 4:
+    print("Log10:", math.log10(Nr1))
+elif Choice == 5:
+    print("Pow:", math.pow(Nr1, Nr2))
+elif Choice == 6:
+    print("Sqrt:", math.sqrt(Nr1))
+elif Choice == 7:
+    print("Cos:", math.cos(Nr1))
+elif Choice == 8:
+    print("Sin:", math.sin(Nr1))
+elif Choice == 9:
+    print("Tan:", math.tan(Nr1))
+elif Choice == 10:
+    print("acos:", math.acos(Nr1))
+elif Choice == 11:
+    print("asin:", math.asin(Nr1))
+elif Choice == 12:
+    print("atan:", math.atan(Nr1))
