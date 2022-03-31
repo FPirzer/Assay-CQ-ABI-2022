@@ -1,0 +1,4 @@
+This is a one liner!
+I forgot the second line. Duh!
+A third line to append to the established text file.
+And another one.

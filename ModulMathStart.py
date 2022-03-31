@@ -79,8 +79,8 @@ elif Choice == 8:
 elif Choice == 9:
     print("Tan:", math.tan(Nr1))
 elif Choice == 10:
-    print("acos:", math.acos(Nr1))
+    print("Acos:", math.acos(Nr1))
 elif Choice == 11:
-    print("asin:", math.asin(Nr1))
+    print("Asin:", math.asin(Nr1))
 elif Choice == 12:
-    print("atan:", math.atan(Nr1))
+    print("Atan:", math.atan(Nr1))

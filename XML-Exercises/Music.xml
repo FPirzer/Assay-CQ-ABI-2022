@@ -1,0 +1,35 @@
+<music>
+  <album>
+    <title>Beatle Hits</title>
+    <albumruntime>4242</albumruntime>
+    <rating>2</rating>
+      <track>
+        <runtime>1337</runtime>
+        <title>Let it be</title>
+        <genre>Pop</genre>
+        <componist>
+          <group>The beatles</group>
+            <members>
+              <firstname>John</firstname>
+              <lastname>Lenon</lastname>
+              <firstname>Paul</firstname>
+              <lastname>McCartney</lastname>
+            </members>
+        </componist>
+      </track>
+  </album>
+  <album>
+    <title>Mambomix</title>
+    <albumruntime>12109</albumruntime>
+    <rating>4</rating>
+      <track>
+        <runtime>8888</runtime>
+        <title>Mambo Nr 5</title>
+        <genre>Pop</genre>
+        <componist>
+          <firstname>Lou</firstname>
+          <lastname>Bega</lastname>
+        </componist>
+      </track>
+  </album>
+</music>

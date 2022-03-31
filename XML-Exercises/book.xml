@@ -1,0 +1,13 @@
+<book>
+  <UVP unit="€">50</UVP>
+  <ISBN>21354646</ISBN>
+  <author>Penname McGuffin</author>
+  <chapters>
+    <chapter>
+      <name>1: The beginning</name>
+      <description>Lorem ipsum</description>
+    </chapter>
+  </chapters>
+  <genre>Sci-Fi</genre>
+  <savedate>10.03.2022</savedate>
+</book>

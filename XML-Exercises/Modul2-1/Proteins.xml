@@ -1,0 +1,42 @@
+<protein_list>
+    <protein>
+        <iso_electric_point unit="pH">9</iso_electric_point>
+        <molecularweight unit="da">100000</molecularweight>
+        <names>
+            <name>RNase</name>
+            <name>Restriktionsenzym Delta 5</name>
+        </names>
+        <sequence_information>
+            <sequence>MGTAMGTAMTCAMTMTAMTGTHMTHMIHM</sequence>
+            <SSEs>
+                <alpha_helices>
+                    <alpha_helix>
+                        <start>10</start>
+                        <stop>18</stop>
+                    </alpha_helix>
+                    <alpha_helix>
+                        <start>30</start>
+                        <stop>42</stop>
+                    </alpha_helix>
+                </alpha_helices>
+                <beta_strands>
+                    <strands>
+                        <strand>
+                            <start>22</start>
+                            <stop>28</stop>
+                        </strand>
+                        <strand>
+                            <start>54</start>
+                            <stop>61</stop>
+                        </strand>
+                    </strands>
+                </beta_strands>
+            </SSEs>
+        </sequence_information>
+    </protein>
+</protein_list>
+
+
+
+
+
