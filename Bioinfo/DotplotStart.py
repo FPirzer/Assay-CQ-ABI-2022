@@ -18,8 +18,8 @@ for i in range(len(seq1) - window):
         seq1_1 = []
         seq2_1 = []
         score = 0
-        seq1_1 = list(seq1[i : i + 5])
-        seq2_1 = list(seq2[j : j + 5])
+        seq1_1 = list(seq1[i : i + window])
+        seq2_1 = list(seq2[j : j + window])
         print(seq1[i : i + window] + " " + seq2[j : j + window])
 
         for h in range(window):
