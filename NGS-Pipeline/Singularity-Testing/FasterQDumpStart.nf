@@ -2,7 +2,7 @@ nextflow.enable.dsl = 2
 
 //  container "https://depot.galaxyproject.org/singularity/"
 
-process prefetch {
+process prefetchprocess {
   storeDir "${params.outdir}"
   container "https://depot.galaxyproject.org/singularity/sra-tools:2.11.0--pl5262h314213e_0"
   input:
@@ -25,11 +25,11 @@ process dumpprocess {
     path "${accession}.fastq"
   script:
     """
-    fasterq-dump.2.11.0 ${accession}.sra
+    fasterq-dump.2.11.0 ${sraresult}
     """
 }
 
 workflow {
-  sraresult = prefetch(params.accession)
+  sraresult = prefetchprocess(params.accession)
   dumpprocess(sraresult, params.accession)
 }
