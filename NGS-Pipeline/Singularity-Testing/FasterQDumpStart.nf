@@ -22,7 +22,7 @@ process dumpprocess {
     path sraresult
     val accession
   output:
-    path "${accession}.fastq"
+    path "${accession}*.fastq"
   script:
     """
     fasterq-dump.2.11.0 ${sraresult}
